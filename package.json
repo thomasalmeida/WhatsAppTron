@@ -1,0 +1,17 @@
+{
+  "name": "WhatsAppTron",
+  "version": "1.0.0",
+  "description": "A custom Electron app for WhatsApp",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . WhatsAppTron --platform=linux --arch=x64 --out=release-builds --overwrite"
+  },
+  "author": "Thomas Almeida",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "electron": "^29.1.5",
+    "electron-packager": "^15.3.0"
+  }
+}
